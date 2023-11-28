@@ -1,0 +1,117 @@
+/*  Ray Arbizu  */
+
+body{
+    background-color: rgb(23, 95, 49);
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+#die1 {
+    width: 100px; 
+    height: 100px; 
+    background-color: azure;
+    border-radius: 25%;
+}
+
+#die2 {
+    width: 100px; 
+    height: 100px; 
+    background-color: azure;
+    border-radius: 25%;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: bisque;
+    color: black;
+}
+
+button:hover {
+    background-color: black;
+    color: bisque;
+}
+
+#turn{
+    padding: 20px;
+    background-color: #009933;
+    color: bisque;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#rollCounter{
+    padding: 20px;
+    background-color: black;
+    color: yellow;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#status{
+    padding: 20px;
+    background-color:rgb(1, 1, 78) ;
+    color: yellow;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#header{
+    background-color: rgb(1, 1, 78);
+    padding: 10px;
+}
+
+#board{
+    width: 800px;
+    height: 400px;
+}
+
+
+.point{
+    color: bisque;
+    display: inline;
+    padding: 10px;
+    float: left;
+}
+
+.container {
+    display: flex;
+}
+
+.left-div {
+    flex: 1; 
+}
+
+.right-div {
+    flex: 2;
+}
+
+
+/* #point{
+    background-color: whitesmoke;
+    width: 45px;
+    height: 30px;
+    padding-top: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+} */
+
+/* #dice{
+    background-color: bisque;
+} */
